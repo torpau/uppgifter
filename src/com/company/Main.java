@@ -7,6 +7,7 @@ public class Main {
         // uppgifter.uppg10();
         // uppgifter.uppg11();
         // uppgifter.uppg12();
-        uppgifter.uppg13();
+        //uppgifter.uppg13();
+        uppgifter.uppg14();
     }
 }

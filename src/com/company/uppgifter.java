@@ -65,6 +65,28 @@ public class uppgifter {
         Perimeter is 2 * (5.6 + 8.5) = 28.20 */
     }
 
+    static void uppg14() {
+
+        boolean first = false;
+
+        for(int i=0; i<9; i++) {
+            if(first==false) {
+                System.out.println("* * * * * * ==================================");
+                first = true;
+            } else {
+                System.out.println(" * * * * *  ==================================");
+                first = false;
+            }
+        }
+        for(int i=0; i<6; i++) {
+            for(int x=0; x<46; x++) {
+                System.out.print('=');
+            }
+            System.out.print('\n');
+        }
+
+    }
+
 
 
 }
