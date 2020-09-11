@@ -1,4 +1,5 @@
 package com.company;
+import java.util.Scanner;
 
 public class uppgifter {
     //https://www.w3resource.com/java-exercises/basic/index.php
@@ -30,4 +31,22 @@ public class uppgifter {
         Area is = 176.71458676442586
         */
     }
+
+
+    static void uppg12() {
+        System.out.println("Type in three numbers.\nPlease press 'ENTER' after each input.");
+
+        Scanner myInput = new Scanner(System.in);
+
+        double no1 = myInput.nextDouble();
+        double no2 = myInput.nextDouble();
+        double no3 = myInput.nextDouble();
+
+        double result = (no1 + no2 + no3) / 3;
+
+        System.out.println("The average of your numbers is: " + result);
+    }
+
+
+
 }
