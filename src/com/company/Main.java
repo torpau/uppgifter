@@ -8,6 +8,8 @@ public class Main {
         // uppgifter.uppg11();
         // uppgifter.uppg12();
         //uppgifter.uppg13();
-        uppgifter.uppg14();
+        //uppgifter.uppg14();
+        //uppgifter.uppg15();
+        uppgifter.uppg16();
     }
 }

@@ -88,5 +88,30 @@ public class uppgifter {
     }
 
 
+    static void uppg15() {
+        int a = 66;
+        int b = 99;
+
+        System.out.println("innan bytet");
+        System.out.println(a + " : " + b);
+        int z = a;
+        a = b;
+        b = z;
+
+        System.out.println("efter bytet");
+        System.out.println(a + " : " + b);
+
+    }
+
+
+    static void uppg16() {
+        System.out.println(" +\"\"\"\"\"+");
+        System.out.println("[| o o |]");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +-----+ ");
+    }
+
+
 
 }
