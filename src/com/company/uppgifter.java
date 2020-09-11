@@ -48,5 +48,23 @@ public class uppgifter {
     }
 
 
+    static void uppg13() {
+        //Test Data: Width = 5.5 Height = 8.5
+        double x = 5.6;
+        double y = 8.5;
+
+        double A = x * y;
+        double P = 2 * (x + y);
+
+        System.out.println("Area is " + x + " x " + y + " = " + A);
+        System.out.println("Perimeter is 2 * (" + x + " + " + y + ") = " + P);
+
+
+        /* Expected Output
+        Area is 5.6 * 8.5 = 47.60
+        Perimeter is 2 * (5.6 + 8.5) = 28.20 */
+    }
+
+
 
 }
